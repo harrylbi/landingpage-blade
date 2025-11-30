@@ -1,0 +1,30 @@
+// ========= IMPORTS =========
+// Import Bootstrap
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+// Import Font
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
+// Base
+@import 'base/variables';
+@import 'base/global';
+
+// Layout
+@import 'layout/navbar';
+@import 'layout/hero';
+@import 'layout/footer';
+
+// Components
+@import 'components/buttons';
+@import 'components/cards';
+@import 'components/forms';
+@import 'components/carousel';
+
+// Pages
+@import 'pages/journey';
+@import 'pages/countries';
+@import 'pages/services';
+
+// Utilities
+@import 'utilities/animations';
+@import 'utilities/responsive';

@@ -1,0 +1,39 @@
+// ========= COUNTRIES SECTION =========
+.countries-section {
+    padding: 80px 0;
+    background: #F8FAFC;
+}
+
+.countries-header {
+    text-align: left;
+    margin-bottom: $margin-xl;
+    max-width: 700px;
+}
+
+.countries-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: $text-dark;
+    margin-bottom: $margin-md;
+    line-height: 1.2;
+    position: relative;
+    padding-bottom: $margin-md;
+
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 60px;
+        height: 4px;
+        background: linear-gradient(90deg, #FF6B35 0%, #FF9F1C 100%);
+        border-radius: 2px;
+    }
+}
+
+.countries-subtitle {
+    font-size: 15px;
+    color: $text-light;
+    line-height: 1.6;
+    margin-bottom: 0;
+}

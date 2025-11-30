@@ -1,0 +1,55 @@
+// ========= JOURNEY STEPS SECTION =========
+.journey-section {
+    padding: 100px 0;
+    background: linear-gradient(135deg, #F8F9FF 0%, #FFFFFF 100%);
+}
+
+.journey-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.journey-badge {
+    display: inline-block;
+    background: linear-gradient(135deg, $primary-blue 0%, $secondary-blue 100%);
+    color: white;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    padding: $padding-sm $padding-lg;
+    border-radius: $radius-xxl;
+    margin-bottom: $padding-lg;
+}
+
+.journey-title {
+    font-size: 42px;
+    font-weight: 800;
+    color: $text-dark;
+    margin-bottom: $margin-md;
+    line-height: 1.2;
+}
+
+.journey-subtitle {
+    font-size: 16px;
+    color: $text-light;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+// Ensure 5 cards per row on desktop
+.journey-section .row>[class*='col-lg'] {
+    flex: 0 0 auto;
+    width: 20%;
+
+    @media (max-width: 991px) {
+        width: auto;
+    }
+}
+
+// Custom 5-column grid for desktop
+@media (min-width: 992px) {
+    .col-lg-custom-5 {
+        flex: 0 0 auto;
+        width: 20%;
+    }
+}

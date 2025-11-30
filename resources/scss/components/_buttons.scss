@@ -1,0 +1,110 @@
+// ========= BUTTON STYLES =========
+.btn-consultation,
+.btn-search,
+.btn-search-inline,
+.btn-get-started {
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: $radius-md;
+    border: none;
+    transition: $transition-base;
+}
+
+.btn-get-started,
+.btn-search,
+.btn-search-inline {
+    background-color: $primary-blue;
+    color: $white !important;
+    padding: $padding-md 25px;
+    box-shadow: $shadow-lg;
+
+    &:hover {
+        background-color: $secondary-blue;
+        transform: translateY(-2px);
+        box-shadow: 0 6px 16px rgba(0, 82, 255, 0.4);
+    }
+}
+
+.btn-consultation {
+    background-color: $white;
+    color: $primary-blue !important;
+    padding: $padding-md $padding-xl;
+    box-shadow: $shadow-md;
+    display: inline-flex;
+    align-items: center;
+    gap: $padding-sm;
+
+    &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    &::after {
+        content: '→';
+        font-size: 18px;
+    }
+}
+
+.btn-explore {
+    background-color: transparent;
+    color: $white !important;
+    font-weight: 600;
+    font-size: 14px;
+    padding: $padding-md $padding-xl;
+    border-radius: $radius-sm;
+    border: 2px solid $white;
+    transition: $transition-base;
+
+    &:hover {
+        background-color: $white;
+        color: $primary-blue !important;
+        transform: translateY(-2px);
+    }
+}
+
+.btn-search {
+    padding: $padding-md 40px;
+}
+
+.btn-search-inline {
+    padding: $padding-md 35px;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.btn-country {
+    background: white;
+    color: $primary-blue !important;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 12px 24px;
+    border-radius: $radius-md;
+    text-decoration: none;
+    display: inline-block;
+    transition: $transition-base;
+    align-self: flex-start;
+
+    &:hover {
+        background: rgba(255, 255, 255, 0.9);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+}
+
+.btn-newsletter {
+    background: linear-gradient(135deg, $primary-blue 0%, $secondary-blue 100%);
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: $radius-md;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    transition: $transition-base;
+    white-space: nowrap;
+
+    &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 20px rgba(0, 82, 255, 0.4);
+    }
+}

@@ -1,0 +1,39 @@
+// ========= COLOR PALETTE =========
+$primary-blue: #0052FF;
+$secondary-blue: #4169E1;
+$light-blue: #E6EDFF;
+$text-dark: #1E1E1E;
+$text-light: #666666;
+$white: #FFFFFF;
+$gray-bg: #F5F7FA;
+$border-gray: #E5E9F2;
+
+// ========= SPACING =========
+$padding-sm: 8px;
+$padding-md: 14px;
+$padding-lg: 20px;
+$padding-xl: 30px;
+$margin-sm: 10px;
+$margin-md: 15px;
+$margin-lg: 25px;
+$margin-xl: 50px;
+
+// ========= BORDER RADIUS =========
+$radius-sm: 5px;
+$radius-md: 8px;
+$radius-lg: 12px;
+$radius-xl: 15px;
+$radius-xxl: 20px;
+
+// ========= TRANSITIONS =========
+$transition-base: all 0.3s ease;
+$transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+
+// ========= SHADOWS =========
+$shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
+$shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+$shadow-lg: 0 6px 20px rgba(0, 82, 255, 0.3);
+$shadow-xl: 0 12px 24px rgba(0, 0, 0, 0.15);
+
+// ========= FONT =========
+$font-family: 'Montserrat', sans-serif;

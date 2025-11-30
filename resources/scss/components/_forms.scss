@@ -1,0 +1,17 @@
+// ========= FORM COMPONENTS =========
+// This file is intentionally minimal as most form styles are in hero section
+// Add custom form styles here as needed
+
+.form-control {
+    &:focus {
+        border-color: $primary-blue;
+        box-shadow: 0 0 0 0.2rem rgba(0, 82, 255, 0.25);
+    }
+}
+
+.form-select {
+    &:focus {
+        border-color: $primary-blue;
+        box-shadow: 0 0 0 0.2rem rgba(0, 82, 255, 0.25);
+    }
+}

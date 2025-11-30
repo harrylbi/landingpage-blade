@@ -1,0 +1,47 @@
+// ========= NAVBAR STYLES =========
+.navbar-custom {
+    background-color: $light-blue;
+    padding: 1rem 0;
+    box-shadow: $shadow-sm;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition: $transition-base;
+}
+
+.navbar-brand-custom {
+    font-size: 16px;
+    font-weight: 700;
+    color: $text-dark !important;
+    display: flex;
+    align-items: center;
+    gap: $margin-sm;
+}
+
+.navbar-nav {
+    .nav-link {
+        color: $text-dark !important;
+        font-weight: 500;
+        font-size: 14px;
+        margin: 0 8px;
+        transition: color 0.3s ease;
+
+        &:hover {
+            color: $primary-blue !important;
+        }
+    }
+}
+
+.btn-signin {
+    color: $text-dark !important;
+    font-weight: 600;
+    font-size: 14px;
+    padding: $padding-sm $padding-lg;
+    background: transparent;
+    border: none;
+    transition: opacity 0.3s ease;
+
+    &:hover {
+        opacity: 0.7;
+    }
+}

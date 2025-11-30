@@ -1,0 +1,46 @@
+// ========= GLOBAL STYLES =========
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: $font-family !important;
+    color: $text-dark;
+    overflow-x: hidden;
+}
+
+// ========= CSS VARIABLES FOR COMPATIBILITY =========
+:root {
+    --bs-body-font-family: #{$font-family} !important;
+    --primary-blue: #{$primary-blue};
+    --secondary-blue: #{$secondary-blue};
+    --light-blue: #{$light-blue};
+    --text-dark: #{$text-dark};
+    --text-light: #{$text-light};
+    --white: #{$white};
+    --gray-bg: #{$gray-bg};
+    --border-gray: #{$border-gray};
+
+    --padding-sm: #{$padding-sm};
+    --padding-md: #{$padding-md};
+    --padding-lg: #{$padding-lg};
+    --padding-xl: #{$padding-xl};
+    --margin-sm: #{$margin-sm};
+    --margin-md: #{$margin-md};
+    --margin-lg: #{$margin-lg};
+    --margin-xl: #{$margin-xl};
+
+    --radius-sm: #{$radius-sm};
+    --radius-md: #{$radius-md};
+    --radius-lg: #{$radius-lg};
+    --radius-xl: #{$radius-xl};
+    --radius-xxl: #{$radius-xxl};
+
+    --transition-base: #{$transition-base};
+    --transition-smooth: #{$transition-smooth};
+
+    --shadow-sm: #{$shadow-sm};
+    --shadow-md: #{$shadow-md};
+    --shadow-lg: #{$shadow-lg};
+    --shadow-xl: #{$shadow-xl};
+}

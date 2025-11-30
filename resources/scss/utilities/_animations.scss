@@ -1,0 +1,87 @@
+// ========= ANIMATIONS =========
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translate(0, 0) scale(1);
+    }
+
+    50% {
+        transform: translate(20px, 20px) scale(1.05);
+    }
+}
+
+// Gradient Backgrounds
+.blue-gradient {
+    background: linear-gradient(135deg, #5B86E5 0%, #36D1DC 100%);
+}
+
+.purple-gradient {
+    background: linear-gradient(135deg, #C471F5 0%, #FA71CD 100%);
+}
+
+.green-gradient {
+    background: linear-gradient(135deg, #11998E 0%, #38EF7D 100%);
+}
+
+.orange-gradient {
+    background: linear-gradient(135deg, #FA8BFF 0%, #2BD2FF 50%, #2BFF88 100%);
+}
+
+.red-gradient {
+    background: linear-gradient(135deg, #F83600 0%, #F9D423 100%);
+}
+
+.indigo-gradient {
+    background: linear-gradient(135deg, #4E54C8 0%, #8F94FB 100%);
+}
+
+.pink-gradient {
+    background: linear-gradient(135deg, #FF6B9D 0%, #FFC371 100%);
+}
+
+.teal-gradient {
+    background: linear-gradient(135deg, #17EAD9 0%, #6078EA 100%);
+}
+
+.amber-gradient {
+    background: linear-gradient(135deg, #FFD26F 0%, #3677FF 100%);
+}
+
+.cyan-gradient {
+    background: linear-gradient(135deg, #13B0F5 0%, #E70FAA 100%);
+}

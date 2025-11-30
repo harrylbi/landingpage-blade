@@ -1,0 +1,213 @@
+// ========= FOOTER SECTION =========
+.footer-section {
+    background: linear-gradient(135deg, #1a1f36 0%, #0f1419 100%);
+    color: white;
+    padding: 80px 0 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.footer-main {
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-brand {
+    padding-right: 20px;
+}
+
+.footer-logo {
+    font-size: 22px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: $margin-lg;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer-description {
+    font-size: 14px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: $margin-lg;
+}
+
+.footer-social {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.social-link {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: $transition-base;
+    backdrop-filter: blur(10px);
+
+    &:hover {
+        background: $primary-blue;
+        transform: translateY(-3px);
+        box-shadow: 0 8px 20px rgba(0, 82, 255, 0.4);
+    }
+}
+
+.footer-links {
+    height: 100%;
+}
+
+.footer-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: $margin-lg;
+    position: relative;
+    padding-bottom: 12px;
+
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 30px;
+        height: 3px;
+        background: linear-gradient(90deg, $primary-blue 0%, $secondary-blue 100%);
+        border-radius: 2px;
+    }
+}
+
+.footer-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+        margin-bottom: 12px;
+    }
+
+    a {
+        color: rgba(255, 255, 255, 0.7);
+        text-decoration: none;
+        font-size: 14px;
+        transition: $transition-base;
+        display: inline-block;
+
+        &:hover {
+            color: white;
+            transform: translateX(5px);
+        }
+    }
+}
+
+// Newsletter Section
+.footer-newsletter {
+    padding: 50px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.newsletter-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.newsletter-subtitle {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 0;
+}
+
+.newsletter-form {
+    width: 100%;
+}
+
+.newsletter-input-wrapper {
+    display: flex;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: $radius-lg;
+    padding: 6px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.newsletter-input {
+    flex: 1;
+    border: none;
+    background: transparent;
+    padding: 12px 18px;
+    color: white;
+    font-size: 14px;
+    outline: none;
+
+    &::placeholder {
+        color: rgba(255, 255, 255, 0.5);
+    }
+}
+
+// Footer Bottom
+.footer-bottom {
+    padding: 30px 0;
+}
+
+.footer-copyright {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0;
+}
+
+.footer-legal {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+
+    @media (min-width: 768px) {
+        justify-content: flex-end;
+    }
+
+    a {
+        color: rgba(255, 255, 255, 0.6);
+        text-decoration: none;
+        font-size: 14px;
+        transition: $transition-base;
+
+        &:hover {
+            color: white;
+        }
+    }
+}
+
+// Decorative Elements
+.footer-decoration {
+    position: absolute;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(0, 82, 255, 0.15) 0%, transparent 70%);
+    pointer-events: none;
+}
+
+.footer-decoration-1 {
+    width: 400px;
+    height: 400px;
+    top: -100px;
+    right: -100px;
+    animation: float 20s ease-in-out infinite;
+}
+
+.footer-decoration-2 {
+    width: 300px;
+    height: 300px;
+    bottom: -50px;
+    left: -50px;
+    animation: float 15s ease-in-out infinite reverse;
+}
