@@ -202,125 +202,262 @@
       <p class="journey-subtitle">From self-discovery to post-arrival support, we guide you every step of the way</p>
     </div>
 
-    <!-- Steps Grid -->
-    <div class="row g-4">
-      <!-- Step 01 -->
-      <div class="col-lg-custom-5 col-md-4 col-6">
-        <div class="step-card">
-          <div class="step-icon-wrapper blue-gradient">
-            <div class="step-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24"><path d="M12 2L4.5 20.29l.71.71L12 18l6.79 3 .71-.71z"/></svg></div>
+    <!-- Steps Grid (Desktop) / Swiper (Mobile) -->
+    <div class="steps-wrapper">
+      <!-- Desktop Grid -->
+      <div class="row g-4 d-none d-md-flex">
+        <!-- Step 01 -->
+        <div class="col-lg-custom-5 col-md-4">
+          <div class="step-card">
+            <div class="step-icon-wrapper blue-gradient">
+              <div class="step-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24"><path d="M12 2L4.5 20.29l.71.71L12 18l6.79 3 .71-.71z"/></svg></div>
+            </div>
+            <div class="step-number">STEP 01</div>
+            <h5 class="step-title">Self-Discovery</h5>
+            <p class="step-description">Analyse minat & career exploration</p>
           </div>
-          <div class="step-number">STEP 01</div>
-          <h5 class="step-title">Self-Discovery</h5>
-          <p class="step-description">Analyse minat & career exploration</p>
+        </div>
+
+        <!-- Step 02 -->
+        <div class="col-lg-custom-5 col-md-4">
+          <div class="step-card">
+            <div class="step-icon-wrapper purple-gradient">
+              <div class="step-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24"><path d="M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 4h5v8l-2.5-1.5L6 12V4z"/></svg></div>
+            </div>
+            <div class="step-number">STEP 02</div>
+            <h5 class="step-title">Course Selection</h5>
+            <p class="step-description">Find the perfect major for you</p>
+          </div>
+        </div>
+
+        <!-- Step 03 -->
+        <div class="col-lg-custom-5 col-md-4">
+          <div class="step-card">
+            <div class="step-icon-wrapper green-gradient">
+              <div class="step-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24"><path d="M12 3L2 12h3v8h6v-6h2v6h6v-8h3L12 3zm0 2.5l6 5.5v7.5h-2v-6H8v6H6V11l6-5.5z"/></svg></div>
+            </div>
+            <div class="step-number">STEP 03</div>
+            <h5 class="step-title">University Matching</h5>
+            <p class="step-description">Country & campus selection</p>
+          </div>
+        </div>
+
+        <!-- Step 04 -->
+        <div class="col-lg-custom-5 col-md-4">
+          <div class="step-card">
+            <div class="step-icon-wrapper orange-gradient">
+              <div class="step-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zm4 18H6V4h7v5h5v11zM8 15h8v2H8zm0-4h8v2H8zm0-4h5v2H8z"/></svg></div>
+            </div>
+            <div class="step-number">STEP 04</div>
+            <h5 class="step-title">English Prep</h5>
+            <p class="step-description">IELTS/TOEFL/SAT Guidance</p>
+          </div>
+        </div>
+
+        <!-- Step 05 -->
+        <div class="col-lg-custom-5 col-md-4">
+          <div class="step-card">
+            <div class="step-icon-wrapper red-gradient">
+              <div class="step-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zm-2 16H8v-2h4v2zm4-4H8v-2h8v2zm0-4H8V8h8v2z"/></svg></div>
+            </div>
+            <div class="step-number">STEP 05</div>
+            <h5 class="step-title">Document Prep</h5>
+            <p class="step-description">Application & essay support</p>
+          </div>
+        </div>
+
+        <!-- Step 06 -->
+        <div class="col-lg-custom-5 col-md-4">
+          <div class="step-card">
+            <div class="step-icon-wrapper indigo-gradient">
+              <div class="step-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24"><path d="M19 3h-4.18C14.4 1.84 13.3 1 12 1s-2.4.84-2.82 2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 0c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm0 4c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm6 12H6v-1.4c0-2 4-3.1 6-3.1s6 1.1 6 3.1V19z"/></svg></div>
+            </div>
+            <div class="step-number">STEP 06</div>
+            <h5 class="step-title">Visa Guidance</h5>
+            <p class="step-description">Complete admission support</p>
+          </div>
+        </div>
+
+        <!-- Step 07 -->
+        <div class="col-lg-custom-5 col-md-4">
+          <div class="step-card">
+            <div class="step-icon-wrapper pink-gradient">
+              <div class="step-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg></div>
+            </div>
+            <div class="step-number">STEP 07</div>
+            <h5 class="step-title">Accommodation</h5>
+            <p class="step-description">Living preparation assistance</p>
+          </div>
+        </div>
+
+        <!-- Step 08 -->
+        <div class="col-lg-custom-5 col-md-4">
+          <div class="step-card">
+            <div class="step-icon-wrapper teal-gradient">
+              <div class="step-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24"><path d="M11.8 10.9c-2.27-.59-3-1.2-3-2.15 0-1.09 1.01-1.85 2.7-1.85 1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-1.94.42-3.5 1.68-3.5 3.61 0 2.31 1.91 3.46 4.7 4.13 2.5.6 3 1.48 3 2.41 0 .69-.49 1.79-2.7 1.79-2.06 0-2.87-.92-2.98-2.1h-2.2c.12 2.19 1.76 3.42 3.68 3.83V21h3v-2.15c1.95-.37 3.5-1.5 3.5-3.55 0-2.84-2.43-3.81-4.7-4.4z"/></svg></div>
+            </div>
+            <div class="step-number">STEP 08</div>
+            <h5 class="step-title">Financial Planning</h5>
+            <p class="step-description">Budget & part-time strategies</p>
+          </div>
+        </div>
+
+        <!-- Step 09 -->
+        <div class="col-lg-custom-5 col-md-4">
+          <div class="step-card">
+            <div class="step-icon-wrapper amber-gradient">
+              <div class="step-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24"><path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/></svg></div>
+            </div>
+            <div class="step-number">STEP 09</div>
+            <h5 class="step-title">Pre-Departure</h5>
+            <p class="step-description">Onboarding abroad readiness</p>
+          </div>
+        </div>
+
+        <!-- Step 10 -->
+        <div class="col-lg-custom-5 col-md-4">
+          <div class="step-card">
+            <div class="step-icon-wrapper cyan-gradient">
+              <div class="step-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5s-3 1.34-3 3 1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg></div>
+            </div>
+            <div class="step-number">STEP 10</div>
+            <h5 class="step-title">Post-Arrival</h5>
+            <p class="step-description">Support & community access</p>
+          </div>
         </div>
       </div>
 
-      <!-- Step 02 -->
-      <div class="col-lg-custom-5 col-md-4 col-6">
-        <div class="step-card">
-          <div class="step-icon-wrapper purple-gradient">
-            <div class="step-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24"><path d="M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 4h5v8l-2.5-1.5L6 12V4z"/></svg></div>
-          </div>
-          <div class="step-number">STEP 02</div>
-          <h5 class="step-title">Course Selection</h5>
-          <p class="step-description">Find the perfect major for you</p>
-        </div>
-      </div>
+      <!-- Mobile Swiper Carousel -->
+      <div class="d-md-none">
+        <div class="swiper steps-swiper">
+          <div class="swiper-wrapper">
+            <!-- Step 01 -->
+            <div class="swiper-slide">
+              <div class="step-card">
+                <div class="step-icon-wrapper blue-gradient">
+                  <div class="step-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24"><path d="M12 2L4.5 20.29l.71.71L12 18l6.79 3 .71-.71z"/></svg></div>
+                </div>
+                <div class="step-number">STEP 01</div>
+                <h5 class="step-title">Self-Discovery</h5>
+                <p class="step-description">Analyse minat & career exploration</p>
+              </div>
+            </div>
 
-      <!-- Step 03 -->
-      <div class="col-lg-custom-5 col-md-4 col-6">
-        <div class="step-card">
-          <div class="step-icon-wrapper green-gradient">
-            <div class="step-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24"><path d="M12 3L2 12h3v8h6v-6h2v6h6v-8h3L12 3zm0 2.5l6 5.5v7.5h-2v-6H8v6H6V11l6-5.5z"/></svg></div>
-          </div>
-          <div class="step-number">STEP 03</div>
-          <h5 class="step-title">University Matching</h5>
-          <p class="step-description">Country & campus selection</p>
-        </div>
-      </div>
+            <!-- Step 02 -->
+            <div class="swiper-slide">
+              <div class="step-card">
+                <div class="step-icon-wrapper purple-gradient">
+                  <div class="step-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24"><path d="M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 4h5v8l-2.5-1.5L6 12V4z"/></svg></div>
+                </div>
+                <div class="step-number">STEP 02</div>
+                <h5 class="step-title">Course Selection</h5>
+                <p class="step-description">Find the perfect major for you</p>
+              </div>
+            </div>
 
-      <!-- Step 04 -->
-      <div class="col-lg-custom-5 col-md-4 col-6">
-        <div class="step-card">
-          <div class="step-icon-wrapper orange-gradient">
-            <div class="step-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zm4 18H6V4h7v5h5v11zM8 15h8v2H8zm0-4h8v2H8zm0-4h5v2H8z"/></svg></div>
-          </div>
-          <div class="step-number">STEP 04</div>
-          <h5 class="step-title">English Prep</h5>
-          <p class="step-description">IELTS/TOEFL/SAT Guidance</p>
-        </div>
-      </div>
+            <!-- Step 03 -->
+            <div class="swiper-slide">
+              <div class="step-card">
+                <div class="step-icon-wrapper green-gradient">
+                  <div class="step-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24"><path d="M12 3L2 12h3v8h6v-6h2v6h6v-8h3L12 3zm0 2.5l6 5.5v7.5h-2v-6H8v6H6V11l6-5.5z"/></svg></div>
+                </div>
+                <div class="step-number">STEP 03</div>
+                <h5 class="step-title">University Matching</h5>
+                <p class="step-description">Country & campus selection</p>
+              </div>
+            </div>
 
-      <!-- Step 05 -->
-      <div class="col-lg-custom-5 col-md-4 col-6">
-        <div class="step-card">
-          <div class="step-icon-wrapper red-gradient">
-            <div class="step-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zm-2 16H8v-2h4v2zm4-4H8v-2h8v2zm0-4H8V8h8v2z"/></svg></div>
-          </div>
-          <div class="step-number">STEP 05</div>
-          <h5 class="step-title">Document Prep</h5>
-          <p class="step-description">Application & essay support</p>
-        </div>
-      </div>
+            <!-- Step 04 -->
+            <div class="swiper-slide">
+              <div class="step-card">
+                <div class="step-icon-wrapper orange-gradient">
+                  <div class="step-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zm4 18H6V4h7v5h5v11zM8 15h8v2H8zm0-4h8v2H8zm0-4h5v2H8z"/></svg></div>
+                </div>
+                <div class="step-number">STEP 04</div>
+                <h5 class="step-title">English Prep</h5>
+                <p class="step-description">IELTS/TOEFL/SAT Guidance</p>
+              </div>
+            </div>
 
-      <!-- Step 06 -->
-      <div class="col-lg-custom-5 col-md-4 col-6">
-        <div class="step-card">
-          <div class="step-icon-wrapper indigo-gradient">
-            <div class="step-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24"><path d="M19 3h-4.18C14.4 1.84 13.3 1 12 1s-2.4.84-2.82 2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 0c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm0 4c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm6 12H6v-1.4c0-2 4-3.1 6-3.1s6 1.1 6 3.1V19z"/></svg></div>
-          </div>
-          <div class="step-number">STEP 06</div>
-          <h5 class="step-title">Visa Guidance</h5>
-          <p class="step-description">Complete admission support</p>
-        </div>
-      </div>
+            <!-- Step 05 -->
+            <div class="swiper-slide">
+              <div class="step-card">
+                <div class="step-icon-wrapper red-gradient">
+                  <div class="step-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zm-2 16H8v-2h4v2zm4-4H8v-2h8v2zm0-4H8V8h8v2z"/></svg></div>
+                </div>
+                <div class="step-number">STEP 05</div>
+                <h5 class="step-title">Document Prep</h5>
+                <p class="step-description">Application & essay support</p>
+              </div>
+            </div>
 
-      <!-- Step 07 -->
-      <div class="col-lg-custom-5 col-md-4 col-6">
-        <div class="step-card">
-          <div class="step-icon-wrapper pink-gradient">
-            <div class="step-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg></div>
-          </div>
-          <div class="step-number">STEP 07</div>
-          <h5 class="step-title">Accommodation</h5>
-          <p class="step-description">Living preparation assistance</p>
-        </div>
-      </div>
+            <!-- Step 06 -->
+            <div class="swiper-slide">
+              <div class="step-card">
+                <div class="step-icon-wrapper indigo-gradient">
+                  <div class="step-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24"><path d="M19 3h-4.18C14.4 1.84 13.3 1 12 1s-2.4.84-2.82 2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 0c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm0 4c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm6 12H6v-1.4c0-2 4-3.1 6-3.1s6 1.1 6 3.1V19z"/></svg></div>
+                </div>
+                <div class="step-number">STEP 06</div>
+                <h5 class="step-title">Visa Guidance</h5>
+                <p class="step-description">Complete admission support</p>
+              </div>
+            </div>
 
-      <!-- Step 08 -->
-      <div class="col-lg-custom-5 col-md-4 col-6">
-        <div class="step-card">
-          <div class="step-icon-wrapper teal-gradient">
-            <div class="step-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24"><path d="M11.8 10.9c-2.27-.59-3-1.2-3-2.15 0-1.09 1.01-1.85 2.7-1.85 1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-1.94.42-3.5 1.68-3.5 3.61 0 2.31 1.91 3.46 4.7 4.13 2.5.6 3 1.48 3 2.41 0 .69-.49 1.79-2.7 1.79-2.06 0-2.87-.92-2.98-2.1h-2.2c.12 2.19 1.76 3.42 3.68 3.83V21h3v-2.15c1.95-.37 3.5-1.5 3.5-3.55 0-2.84-2.43-3.81-4.7-4.4z"/></svg></div>
-          </div>
-          <div class="step-number">STEP 08</div>
-          <h5 class="step-title">Financial Planning</h5>
-          <p class="step-description">Budget & part-time strategies</p>
-        </div>
-      </div>
+            <!-- Step 07 -->
+            <div class="swiper-slide">
+              <div class="step-card">
+                <div class="step-icon-wrapper pink-gradient">
+                  <div class="step-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg></div>
+                </div>
+                <div class="step-number">STEP 07</div>
+                <h5 class="step-title">Accommodation</h5>
+                <p class="step-description">Living preparation assistance</p>
+              </div>
+            </div>
 
-      <!-- Step 09 -->
-      <div class="col-lg-custom-5 col-md-4 col-6">
-        <div class="step-card">
-          <div class="step-icon-wrapper amber-gradient">
-            <div class="step-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24"><path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/></svg></div>
-          </div>
-          <div class="step-number">STEP 09</div>
-          <h5 class="step-title">Pre-Departure</h5>
-          <p class="step-description">Onboarding abroad readiness</p>
-        </div>
-      </div>
+            <!-- Step 08 -->
+            <div class="swiper-slide">
+              <div class="step-card">
+                <div class="step-icon-wrapper teal-gradient">
+                  <div class="step-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24"><path d="M11.8 10.9c-2.27-.59-3-1.2-3-2.15 0-1.09 1.01-1.85 2.7-1.85 1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-1.94.42-3.5 1.68-3.5 3.61 0 2.31 1.91 3.46 4.7 4.13 2.5.6 3 1.48 3 2.41 0 .69-.49 1.79-2.7 1.79-2.06 0-2.87-.92-2.98-2.1h-2.2c.12 2.19 1.76 3.42 3.68 3.83V21h3v-2.15c1.95-.37 3.5-1.5 3.5-3.55 0-2.84-2.43-3.81-4.7-4.4z"/></svg></div>
+                </div>
+                <div class="step-number">STEP 08</div>
+                <h5 class="step-title">Financial Planning</h5>
+                <p class="step-description">Budget & part-time strategies</p>
+              </div>
+            </div>
 
-      <!-- Step 10 -->
-      <div class="col-lg-custom-5 col-md-4 col-6">
-        <div class="step-card">
-          <div class="step-icon-wrapper cyan-gradient">
-            <div class="step-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5s-3 1.34-3 3 1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg></div>
+            <!-- Step 09 -->
+            <div class="swiper-slide">
+              <div class="step-card">
+                <div class="step-icon-wrapper amber-gradient">
+                  <div class="step-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24"><path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/></svg></div>
+                </div>
+                <div class="step-number">STEP 09</div>
+                <h5 class="step-title">Pre-Departure</h5>
+                <p class="step-description">Onboarding abroad readiness</p>
+              </div>
+            </div>
+
+            <!-- Step 10 -->
+            <div class="swiper-slide">
+              <div class="step-card">
+                <div class="step-icon-wrapper cyan-gradient">
+                  <div class="step-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5s-3 1.34-3 3 1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg></div>
+                </div>
+                <div class="step-number">STEP 10</div>
+                <h5 class="step-title">Post-Arrival</h5>
+                <p class="step-description">Support & community access</p>
+              </div>
+            </div>
           </div>
-          <div class="step-number">STEP 10</div>
-          <h5 class="step-title">Post-Arrival</h5>
-          <p class="step-description">Support & community access</p>
+          
+          <!-- Navigation Arrows -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          
+          <!-- Pagination -->
+          <div class="swiper-pagination"></div>
         </div>
       </div>
     </div>

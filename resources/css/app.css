@@ -1095,3 +1095,373 @@ body {
         width: 20%;
     }
 }
+
+/*========= FOOTER SECTION =========*/
+.footer-section {
+    background: linear-gradient(135deg, #1a1f36 0%, #0f1419 100%);
+    color: white;
+    padding: 80px 0 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.footer-main {
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-brand {
+    padding-right: 20px;
+}
+
+.footer-logo {
+    font-size: 22px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: var(--margin-lg);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer-description {
+    font-size: 14px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: var(--margin-lg);
+}
+
+.footer-social {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.social-link {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: var(--transition-base);
+    backdrop-filter: blur(10px);
+}
+
+.social-link:hover {
+    background: var(--primary-blue);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 82, 255, 0.4);
+}
+
+.footer-links {
+    height: 100%;
+}
+
+.footer-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: var(--margin-lg);
+    position: relative;
+    padding-bottom: 12px;
+}
+
+.footer-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 30px;
+    height: 3px;
+    background: linear-gradient(90deg, var(--primary-blue) 0%, var(--secondary-blue) 100%);
+    border-radius: 2px;
+}
+
+.footer-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-menu li {
+    margin-bottom: 12px;
+}
+
+.footer-menu a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    font-size: 14px;
+    transition: var(--transition-base);
+    display: inline-block;
+}
+
+.footer-menu a:hover {
+    color: white;
+    transform: translateX(5px);
+}
+
+/* Newsletter Section */
+.footer-newsletter {
+    padding: 50px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.newsletter-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.newsletter-subtitle {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 0;
+}
+
+.newsletter-form {
+    width: 100%;
+}
+
+.newsletter-input-wrapper {
+    display: flex;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: var(--radius-lg);
+    padding: 6px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.newsletter-input {
+    flex: 1;
+    border: none;
+    background: transparent;
+    padding: 12px 18px;
+    color: white;
+    font-size: 14px;
+    outline: none;
+}
+
+.newsletter-input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-newsletter {
+    background: linear-gradient(135deg, var(--primary-blue) 0%, var(--secondary-blue) 100%);
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: var(--radius-md);
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    transition: var(--transition-base);
+    white-space: nowrap;
+}
+
+.btn-newsletter:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 82, 255, 0.4);
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    padding: 30px 0;
+}
+
+.footer-copyright {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0;
+}
+
+.footer-legal {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+    .footer-legal {
+        justify-content: flex-end;
+    }
+}
+
+.footer-legal a {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-size: 14px;
+    transition: var(--transition-base);
+}
+
+.footer-legal a:hover {
+    color: white;
+}
+
+/* Decorative Elements */
+.footer-decoration {
+    position: absolute;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(0, 82, 255, 0.15) 0%, transparent 70%);
+    pointer-events: none;
+}
+
+.footer-decoration-1 {
+    width: 400px;
+    height: 400px;
+    top: -100px;
+    right: -100px;
+    animation: float 20s ease-in-out infinite;
+}
+
+.footer-decoration-2 {
+    width: 300px;
+    height: 300px;
+    bottom: -50px;
+    left: -50px;
+    animation: float 15s ease-in-out infinite reverse;
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translate(0, 0) scale(1);
+    }
+
+    50% {
+        transform: translate(20px, 20px) scale(1.05);
+    }
+}
+
+/* Footer Responsive */
+@media (max-width: 991px) {
+    .footer-section {
+        padding: 60px 0 0;
+    }
+
+    .footer-main {
+        padding-bottom: 40px;
+    }
+
+    .footer-newsletter {
+        padding: 40px 0;
+    }
+
+    .newsletter-title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer-section {
+        padding: 50px 0 0;
+    }
+
+    .footer-brand {
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .footer-links {
+        margin-bottom: 30px;
+    }
+
+    .newsletter-input-wrapper {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .btn-newsletter {
+        width: 100%;
+    }
+
+    .footer-bottom {
+        padding: 25px 0;
+    }
+}
+
+/*========= SWIPER CAROUSEL STYLES =========*/
+.steps-swiper {
+    padding: 20px 0 60px;
+    position: relative;
+}
+
+.steps-swiper .swiper-slide {
+    height: auto;
+}
+
+/* Swiper Navigation Buttons */
+.steps-swiper .swiper-button-next,
+.steps-swiper .swiper-button-prev {
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: var(--transition-base);
+}
+
+.steps-swiper .swiper-button-next:after,
+.steps-swiper .swiper-button-prev:after {
+    font-size: 16px;
+    font-weight: 900;
+    color: var(--primary-blue);
+}
+
+.steps-swiper .swiper-button-next:hover,
+.steps-swiper .swiper-button-prev:hover {
+    background: var(--primary-blue);
+    transform: scale(1.1);
+}
+
+.steps-swiper .swiper-button-next:hover:after,
+.steps-swiper .swiper-button-prev:hover:after {
+    color: white;
+}
+
+/* Swiper Pagination */
+.steps-swiper .swiper-pagination {
+    bottom: 20px;
+}
+
+.steps-swiper .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    background: var(--border-gray);
+    opacity: 1;
+    transition: var(--transition-base);
+}
+
+.steps-swiper .swiper-pagination-bullet-active {
+    background: var(--primary-blue);
+    width: 24px;
+    border-radius: 4px;
+}
+
+/* Mobile Step Card Adjustments */
+@media (max-width: 767px) {
+    .steps-swiper .step-card {
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    .steps-swiper .swiper-button-next,
+    .steps-swiper .swiper-button-prev {
+        width: 35px;
+        height: 35px;
+    }
+
+    .steps-swiper .swiper-button-next:after,
+    .steps-swiper .swiper-button-prev:after {
+        font-size: 14px;
+    }
+}
